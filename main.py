@@ -1,9 +1,6 @@
-s = {25,10,12,27,26,25,}
-a = {"meow", 83, 25.11, True}
-print(s)
+import array as arr
+a = arr.array('i', [1, 3, 5, 3, 7, 9, 3])
 print(a)
-p = [1,2,3,4,3,2,4]
-print (p)
-p = set(p)
-p.pop()
-print(p)
+print(a.count(3))
+a.reverse()
+print(a)
